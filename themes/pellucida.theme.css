@@ -76,7 +76,7 @@ code {
 }
 
 /* Fix disappearing tooltips */
-.layer-v9HyYc {
+.layer-v9HyYc.disabledPointerEvents-1ptgTB {
     background-color: transparent;
 }
 
