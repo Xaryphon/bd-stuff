@@ -1,0 +1,103 @@
+/**
+ * @name Pellucida
+ * @version 0.0.1
+ * @author Xaryphon
+ * @authorLink https://github.com/xaryphon
+ * @description discord 0.0.16 . . . last update 29.11.2021
+ * @source https://github.com/xaryphon/bd-stuff
+ * @updateUrl https://raw.githubusercontent.com/xaryphon/bd-stuff/master/themes/pellucida.theme.css
+ */
+
+:root {
+    --x-highlight: #202020;
+
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-secondary-alt: transparent;
+    --background-tertiary: transparent;
+    --background-accent: transparent;
+    --background-floating: #121212df;
+    --background-mobile-primary: transparent;
+    --background-mobile-secondary: transparent;
+    --channeltextarea-background: transparent;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* NOTE: In the server role permission settings scrolling is kinda funky
+ *       maybe figure out something for that
+ */
+
+/* NOTE: not yet sure what I want to do with this one */
+.expandedFolderBackground-3ZDF05 {
+    background: var(--x-highlight);
+}
+
+/* Fix some borders */
+code {
+    border: 1px solid var(--x-highlight) !important;
+}
+
+.reaction-1hd86g {
+    border: 1px solid var(--x-highlight);
+}
+
+/* comboboxes */
+.lookFilled-22uAsw.select-2fjwPw {
+    border-color: var(--x-highlight);
+}
+
+/* Server Headers */
+.header-2V-4Sw, .animatedContainer-1NSq4T {
+    box-shadow: none;
+}
+
+.animatedContainer-1NSq4T {
+    background-color: transparent;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.bannerImage-3KhIJ6:before {
+    background: transparent;
+}
+
+/* Hide nitro button in DMs */
+.container-2Pjhx-[href="/store"] {
+    display: none;
+}
+
+/* inbox */
+.layer-v9HyYc {
+    background-color: var(--background-floating)
+}
+
+.channelHeader-3Gd2xq {
+    background-color: var(--background-floating);
+}
+
+/* Fix disappearing tooltips */
+.layer-v9HyYc {
+    background-color: transparent;
+}
+
+/* Fix hard coded colors */
+.theme-dark .container-1D34oG {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .inset-3sAvek {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .root-1gCeng {
+    background-color: var(--background-floating);
+}
+
+.theme-dark .footer-2gL1pp {
+    background-color: transparent;
+}
+
+/* ... */
+.bd-logo {
+    display: none;
+}
